@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <button id="btn">Click Me</button>
+    <script>
+        document.getElementById('btn').addEventListener('click', function() {
+            alert('Button was clicked!');
+        });
+        // This is a simple JavaScript function to handle button clicks
+        function handleClick() {
+            console.log('Button clicked!');     
+            document.body.style.backgroundColor = 'grey';
+        }
+    </script>
+</body>
+</html>
